@@ -1,0 +1,8 @@
+# usage-overlay bundle patch.
+#
+# One Host row. The Host half registers the `modelUsageByRoute` session
+# projection; the Client half ships in the same package through its
+# `dsh.client` manifest, so no second row is needed.
+- insert:
+    - id: usage-overlay
+      name: '@local/usage-overlay'

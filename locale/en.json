@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Usage Overlay",
+    "description": "Per-model token usage, latency, throughput and estimated cost for the current session and across all sessions, with Recharts line charts, expandable model cards, and a right-side readout."
+  }
+}
