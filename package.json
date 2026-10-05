@@ -1,9 +1,9 @@
 {
-  "name": "@local/usage-overlay",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@holyknight101/dsh-usage-plugin",
+  "version": "0.1.0",
+  "private": false,
   "type": "module",
-  "description": "Session and global token usage, latency, throughput and estimated cost per model, with Recharts line charts and expandable model cards.",
+  "description": "Shareable DeepSeek Harness usage plugin bundle",
   "icon": "./icon.svg",
   "exports": {
     ".": "./index.js",
@@ -45,5 +45,8 @@
     "react-dom": "^18.3.1",
     "recharts": "^2.12.7",
     "typescript": "^5.6.3"
-  }
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "author": "steverahardjo"
 }
